@@ -1,7 +1,7 @@
 // Marque Todos Específicos Clicando
 $("ul").on("click", "li",function()
 { 
- $(this).toggleClass("completed");
+    $(this).toggleClass("completed");
 });
 
 //Clique no X para deletar um Todo
