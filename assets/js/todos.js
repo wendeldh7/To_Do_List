@@ -1,10 +1,10 @@
-// Check Off Specific Todos By Clicking
+// Marque Todos Específicos Clicando
 $("ul").on("click", "li",function()
 { 
  $(this).toggleClass("completed");
 });
 
-//Click on X to delete a Todo
+//Clique no X para deletar um Todo
 
 $("ul").on("click", "span",function(event)
 {
